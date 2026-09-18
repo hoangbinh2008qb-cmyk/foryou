@@ -158,7 +158,8 @@ a {
   text-align: center;
 }
 
-button {
+/* Nút điều hướng dạng link (thay cho <button><a>...</a></button> lồng sai chuẩn) */
+.btn {
   display: inline-block;
   padding: 10px 24px;
   background: radial-gradient(circle, rgb(20, 20, 20), black);
@@ -166,9 +167,12 @@ button {
   border-radius: 9px;
   border: none;
   margin: 4px;
+  color: cyan;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-button:hover { opacity: 0.9; }
+.btn:hover { opacity: 0.9; }
 
 header h1 {
   text-align: center;
