@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+  <defs>
+    <style>
+      .bust { fill: none; stroke: #c9a227; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.35; }
+      .fill { fill: #c9a227; opacity: 0.06; }
+    </style>
+  </defs>
+
+  <!-- baseline -->
+  <line x1="0" y1="210" x2="640" y2="210" stroke="#c9a227" stroke-width="1" opacity="0.18"/>
+
+  <!-- bust 1: bearded thinker, high collar & cravat -->
+  <g transform="translate(40,0)">
+    <path class="fill" d="M60 210 C58 150 66 118 96 108 C104 78 96 44 66 34 C82 14 118 12 134 34 C150 20 172 30 168 54 C182 66 178 92 158 100 C176 118 176 158 166 210 Z"/>
+    <path class="bust" d="M60 210 C58 150 66 118 96 108 C104 78 96 44 66 34 C82 14 118 12 134 34 C150 20 172 30 168 54 C182 66 178 92 158 100 C176 118 176 158 166 210"/>
+    <path class="bust" d="M96 108 C104 128 130 130 140 110"/>
+    <path class="bust" d="M70 190 C76 176 150 176 156 190"/>
+  </g>
+
+  <!-- bust 2: bald domed head, goatee, high forehead -->
+  <g transform="translate(280,0)">
+    <path class="fill" d="M40 210 C36 156 50 122 84 112 C74 84 84 40 118 30 C150 22 176 46 170 76 C186 84 186 108 168 118 C182 136 182 168 176 210 Z"/>
+    <path class="bust" d="M40 210 C36 156 50 122 84 112 C74 84 84 40 118 30 C150 22 176 46 170 76 C186 84 186 108 168 118 C182 136 182 168 176 210"/>
+    <path class="bust" d="M84 112 C96 130 148 130 158 116"/>
+    <path class="bust" d="M108 138 C118 152 132 152 140 140"/>
+  </g>
+
+  <!-- bust 3: full beard & moustache, rounded collar -->
+  <g transform="translate(500,0)">
+    <path class="fill" d="M46 210 C42 154 54 118 86 106 C78 76 88 40 120 34 C150 28 172 52 164 78 C180 88 178 112 158 120 C176 138 178 170 170 210 Z"/>
+    <path class="bust" d="M46 210 C42 154 54 118 86 106 C78 76 88 40 120 34 C150 28 172 52 164 78 C180 88 178 112 158 120 C176 138 178 170 170 210"/>
+    <path class="bust" d="M86 106 C96 132 148 132 156 112"/>
+    <path class="bust" d="M60 188 C70 172 148 172 158 188"/>
+  </g>
+</svg>
